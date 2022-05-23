@@ -1,0 +1,11 @@
+<svg id="_4781855_alert_attention_caution_danger_error_icon" data-name="4781855_alert_attention_caution_danger_error_icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Layer_2" data-name="Layer 2">
+    <path id="Path_11024" data-name="Path 11024" d="M22.7,28H9.3a6.25,6.25,0,0,1-5.47-3.15,6.15,6.15,0,0,1,0-6.22L10.56,7.12a6.3,6.3,0,0,1,10.88,0l6.71,11.51h0a6.15,6.15,0,0,1,0,6.22A6.25,6.25,0,0,1,22.7,28ZM16,6a4.24,4.24,0,0,0-3.71,2.12L5.58,19.64a4.15,4.15,0,0,0,0,4.21A4.23,4.23,0,0,0,9.3,26H22.7a4.23,4.23,0,0,0,3.73-2.15,4.15,4.15,0,0,0,0-4.21L19.71,8.12A4.24,4.24,0,0,0,16,6Z" fill="#dec400"/>
+    <path id="Path_11025" data-name="Path 11025" d="M16,12a.54.54,0,0,0-.44.22.52.52,0,0,0-.1.48L16,14.88l.54-2.18a.52.52,0,0,0-.1-.48A.54.54,0,0,0,16,12Z" fill="none"/>
+    <path id="Path_11026" data-name="Path 11026" d="M18,11a2.56,2.56,0,0,0-4,0,2.5,2.5,0,0,0-.46,2.19L15,19.24a1,1,0,0,0,1.94,0l1.51-6.06A2.5,2.5,0,0,0,18,11Zm-1.46,1.7L16,14.88l-.54-2.18a.52.52,0,0,1,.1-.48.55.55,0,0,1,.88,0,.52.52,0,0,1,.1.48Z" fill="#dec400"/>
+    <circle id="Ellipse_411" data-name="Ellipse 411" cx="1.5" cy="1.5" r="1.5" transform="translate(14.5 21)" fill="#dec400"/>
+  </g>
+  <g id="frame">
+    <rect id="Rectangle_4632" data-name="Rectangle 4632" width="32" height="32" fill="none"/>
+  </g>
+</svg>

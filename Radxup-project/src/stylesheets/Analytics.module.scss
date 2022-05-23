@@ -1,0 +1,170 @@
+.topStatCard {
+  min-height: 120px;
+  padding-left: 25px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 22px;
+  }
+  label.topCardLabel {
+    font-size: 14px;
+    color: #474c55;
+  }
+  label.averageTimeText {
+    color: #f47e28;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  label.totalParticipantText {
+    color: #4b9cd3;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  label.totalRecordText {
+    color: #9dc858;
+    font-weight: bold;
+    font-size: 24px;
+  }
+}
+
+.bottomStatCard {
+  display: flex;
+  padding: 10px 20px;
+
+  .mainTitle {
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    color: #474d57;
+  }
+  .surveyCount {
+    @extend .mainTitle;
+    padding-left: 5px;
+  }
+  label.totalSurvey {
+    font-size: 14px;
+    color: #474d57;
+  }
+  .chartArea {
+    min-height: 200px;
+    padding-top: 10px;
+    margin: auto;
+    width: 174px;
+    position: relative;
+    .chartInfo {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 45px;
+      font-size: 14px;
+      color: #474d57;
+      :first-child {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+  .onboarding {
+    width: 15px;
+    height: 15px;
+    background: #5aa3d2;
+    margin: 3px 15px;
+  }
+  .live {
+    width: 15px;
+    height: 15px;
+    background: #14a9a2;
+    margin: 3px 15px;
+  }
+  .paused {
+    width: 15px;
+    height: 15px;
+    background: #f47f20;
+    margin: 3px 15px;
+  }
+  .completed {
+    width: 15px;
+    height: 15px;
+    background: #00539b;
+    margin: 3px 15px;
+  }
+  .legendTitle {
+    font-size: 14px;
+    color: #474c55;
+    margin-bottom: 10px;
+  }
+
+  .feedbackRatingArea {
+    background: #f5f8ff;
+    border-radius: 25px;
+    height: 50px;
+    align-items: center;
+    padding-right: 25px;
+  }
+  .ratingText {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    color: #474d57;
+    margin-bottom: 0;
+  }
+  .starAlignment {
+    margin: 0 25px;
+  }
+  .responseCount {
+    text-align: right;
+    font-size: 14px;
+    color: #474c55;
+    padding: 8px;
+    margin-right: 100px;
+    margin-bottom: 23px;
+  }
+  .starTitle {
+    font-size: 12px;
+    color: #4b9cd3;
+  }
+  .responseTitle {
+    font-size: 12px;
+    color: #474c55;
+    min-width: 25px;
+  }
+
+  .progressBarSection {
+    width: 154px;
+    height: 12px;
+    margin: 3px 12px 16px;
+    // :first-child {
+    //   height: auto;
+    //   border-radius: 0;
+    // }
+  }
+  .progress {
+    border-radius: 0;
+    height: 12px;
+    div[class='progress-bar'] {
+      background-color: #00539b;
+    }
+  }
+}
+
+.survey-feeds {
+  height: 320px;
+  canvas {
+    height: 210px;
+  }
+}
+
+.FeedsBarSection {
+  width: 254px;
+  height: 12px;
+  margin: 3px 12px 16px;
+}
+
+.Feedsprogress {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 12px;
+  background-color: #00539b;
+}

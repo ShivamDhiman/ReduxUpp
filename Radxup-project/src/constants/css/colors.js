@@ -1,0 +1,11 @@
+export const black = '#000000';
+export const white = '#ffffff';
+export const primary = '#3cc4c2';
+export const hoverLink = 'whitesmoke';
+export const navyblue = '#0076be';
+export const blackFont = '#474C55';
+export const primaryBlue = '#22ccd6';
+export const primaryLight = '#def9fa';
+export const notificationGreen = '#3FD57B';
+export const notificationYellow = '#FFCA2E';
+export const cardColor = { blue: '#0076BE', skyblue: '#009ffc', red: '#CD163F', orange: '#F37021', green: '#0CBB52' };

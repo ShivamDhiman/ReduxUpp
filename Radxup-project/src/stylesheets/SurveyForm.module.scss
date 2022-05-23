@@ -1,0 +1,214 @@
+$label_color: #474d57;
+$success_btn: #14a9a2;
+$inactive_btn: #afacc5;
+$disable_btn: #00539b;
+
+@mixin no-outline {
+  outline: none;
+  box-shadow: none;
+}
+.head-section {
+  align-items: center;
+  label {
+    font-size: 22px;
+    font-weight: 600;
+    color: $label_color;
+  }
+  .inactive {
+    background: $inactive_btn;
+    border: none;
+    &:hover {
+      background: $inactive_btn;
+    }
+  }
+  button {
+    min-width: 100px;
+    padding: 9px 0;
+    &:focus {
+      @include no-outline();
+    }
+  }
+}
+.question-container {
+  box-shadow: 0px 3px 6px #afacc566;
+  border-radius: 4px;
+  margin-bottom: 38px;
+  padding-bottom: 120px;
+}
+.question-section {
+  margin-top: 15px;
+}
+.question-section-preview {
+  display: block;
+}
+.controls-section {
+  button {
+    min-width: 120px;
+    padding: 9px 0;
+    border-radius: 4px;
+  }
+  .success-btn {
+    background: $success_btn;
+    border: none;
+    &:focus {
+      @include no-outline();
+    }
+    &:hover {
+      background: $success_btn;
+    }
+  }
+  .disabled-btn {
+    opacity: 0.5;
+    background: $disable_btn;
+    border: none;
+    &:hover {
+      cursor: not-allowed;
+    }
+  }
+}
+
+.questions-header {
+  border-bottom: 1px solid #e5dde2;
+  padding: 20px;
+  color: $success_btn;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  width: 50%;
+  border: none;
+}
+
+.question {
+  padding: 20px 0;
+  margin-right: 0;
+  margin-left: 0;
+  border-bottom: 1px solid #e5dde2;
+  &:last-child {
+    border: none;
+  }
+  legend {
+    text-align: left;
+    color: $label_color;
+    font: normal bold 18px Roboto;
+  }
+  label {
+    color: $label_color;
+    font-size: 16px;
+    margin-right: 35px;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  #listing {
+    color: $label_color;
+    font: normal bold 18px Roboto;
+  }
+  .input-group {
+    width: 200px;
+    margin-right: 30px;
+    @media screen and (max-width: 400px) {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  .input-group {
+    width: 200px;
+    margin-right: 30px;
+    @media screen and (max-width: 400px) {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  .defaultText {
+    font-size: 14px;
+    color: #474c55;
+  }
+  .defaultDateTimeText {
+    @extend .defaultText;
+    input {
+      color: #474c55 !important;
+    }
+  }
+  .dateTimeIcon {
+    position: relative;
+  }
+  .dateTimeIconImage {
+    position: absolute;
+    right: 0;
+    right: 10px;
+    top: 10px;
+  }
+  .errorLable {
+    color: red;
+    font-size: 13px;
+  }
+}
+.questionText {
+  color: #474d57;
+  text-align: start;
+  display: flex;
+  margin-bottom: 8px;
+}
+.largeQuestion {
+  font: normal bold 21px Roboto;
+}
+.medialQuestion {
+  font: normal bold 18px Roboto;
+}
+
+.smallQuestion {
+  font: normal bold 16px Roboto;
+}
+
+.sizeSmall {
+  font: normal bold 14px Roboto;
+  color: #afacc5;
+  &:hover {
+    cursor: pointer;
+    color: #474d57;
+  }
+}
+
+.sizeMediam {
+  font: normal bold 18px Roboto;
+  color: #afacc5;
+  &:hover {
+    cursor: pointer;
+    color: #474d57;
+  }
+}
+
+.sizeLarge {
+  font: normal bold 21px Roboto;
+  color: #afacc5;
+  &:hover {
+    cursor: pointer;
+    color: #474d57;
+  }
+}
+
+.active {
+  color: #474d57 !important;
+}
+
+.smallInput {
+  font-size: 16px;
+}
+
+.mediamInput {
+  font-size: 18px;
+}
+
+.largeInput {
+  font-size: 21px;
+}
+.title {
+  label {
+    font-size: 18px;
+    color: #474c55;
+  }
+  span {
+    font-size: 18px;
+    color: #474c55;
+  }
+}

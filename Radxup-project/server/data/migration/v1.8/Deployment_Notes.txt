@@ -1,0 +1,13 @@
+Deployment Steps:
+1. Drop existing DB.
+2. Create new DB.
+3. Pull latest code.
+4. Run application with latest code. (This will automatically create required tables)
+5. Run SQL scripts in sequence/order as follows:
+      i. study.sql
+      ii. user.sql
+     iii. cdesquestions.sql
+     iv. cdesstudymapping.sql
+    v. cdesquestionsattributes.sql
+6. Clear bowser cashes and logout if already login.
+7. Start verify application with fresh login.

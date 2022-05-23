@@ -1,0 +1,12 @@
+/* make the customizations */
+$theme-colors: (
+  'info': tomato,
+  'danger': teal,
+);
+
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';
+
+.gap-top {
+  margin-top: 50;
+}

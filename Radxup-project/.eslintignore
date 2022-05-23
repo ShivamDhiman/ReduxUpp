@@ -1,0 +1,7 @@
+*.json
+*.html
+build
+coverage
+cypress
+node_modules
+dist

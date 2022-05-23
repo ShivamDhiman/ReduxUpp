@@ -1,0 +1,110 @@
+$inactive_btn: #afacc5;
+
+.defaultText {
+  font-size: 14px;
+  color: #474c55;
+}
+.sectionToggle {
+  display: flex;
+  justify-content: end;
+  width: 80px;
+  align-items: center;
+}
+.sectionHeader {
+  padding: 0 12px;
+}
+
+.sectionTitle {
+  @extend .defaultText;
+  display: flex;
+  color: #14a9a2;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  width: 80%;
+  border: none;
+}
+
+.cdeCard {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+.cdeDetailsModal {
+  width: 700px;
+}
+
+.vbNameBox {
+  padding: 12px;
+  border: 1px solid #d3dce3;
+  border-radius: 8px;
+}
+
+.vNameLable {
+  color: #474d57;
+  font-size: 14px;
+}
+
+.vNameValue {
+  color: #474d57;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.inactive {
+  background: $inactive_btn !important;
+  border: none;
+  &:hover {
+    background: $inactive_btn !important;
+  }
+}
+
+.lngButton {
+  position: absolute;
+  right: 40px;
+}
+.containtView {
+  display: contents;
+}
+.disableInput {
+  align-items: center;
+  padding-left: 16px;
+  display: flex;
+  background-color: rgb(169, 169, 203, 0.2);
+  border-radius: 8px;
+  min-width: 216px;
+  min-height: 45px;
+}
+
+.answerText {
+  font-size: 14px;
+  color: #474c55;
+}
+.divider {
+  height: 2px;
+  background-color: rgb(169, 169, 203, 0.2);
+}
+
+.dataTable {
+  width: 100%;
+  tr {
+    padding-top: 8px;
+    th {
+      font-weight: 400;
+      font-size: 14px;
+    }
+    td {
+      font-weight: bold;
+      font-size: 14px;
+    }
+  }
+}
+
+.linkedTo {
+  max-width: 50%;
+  min-height: 46px;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  height: auto;
+  padding: 5px 10px;
+}

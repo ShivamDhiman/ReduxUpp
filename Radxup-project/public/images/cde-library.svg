@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.356" height="21.05" viewBox="0 0 23.356 21.05">
+  <g id="books" transform="translate(0 -1.048)">
+    <rect id="Rectangle_5274" data-name="Rectangle 5274" width="5.286" height="19.759" rx="2" transform="translate(0.5 1.548)" fill="rgba(0,0,0,0)" stroke="#4b9cd3" stroke-width="1"/>
+    <circle id="Ellipse_415" data-name="Ellipse 415" cx="1.048" cy="1.048" r="1.048" transform="translate(2.095 17.616)" fill="#4b9cd3" stroke="#4b9cd3" stroke-width="1"/>
+    <path id="Path_15725" data-name="Path 15725" d="M2.444,6.81h1.4m-1.4,3.142h1.4m-1.4-6.285h1.4" fill="rgba(0,0,0,0)" stroke="#4b9cd3" stroke-linecap="round" stroke-width="1"/>
+    <rect id="Rectangle_5275" data-name="Rectangle 5275" width="5.286" height="19.759" rx="2" transform="translate(8.264 1.548)" fill="rgba(0,0,0,0)" stroke="#4b9cd3" stroke-width="1"/>
+    <circle id="Ellipse_416" data-name="Ellipse 416" cx="1.048" cy="1.048" r="1.048" transform="translate(9.865 17.616)" fill="#4b9cd3" stroke="#4b9cd3" stroke-width="1"/>
+    <path id="Path_15726" data-name="Path 15726" d="M9.778,6.81h1.4m-1.4,3.142h1.4m-1.4-6.285h1.4" transform="translate(0.438)" fill="rgba(0,0,0,0)" stroke="#4b9cd3" stroke-linecap="round" stroke-width="1"/>
+    <g id="Group_16065" data-name="Group 16065" transform="translate(14.906 2.583) rotate(-8)">
+      <path id="Path_15728" data-name="Path 15728" d="M2.022,0,3.281-.007A1.946,1.946,0,0,1,5.228,1.972L5.139,16.807a2,2,0,0,1-1.97,2l-1.259.008A1.946,1.946,0,0,1-.037,16.838L.052,2A2,2,0,0,1,2.022,0Z" transform="translate(0.045 0.322)" fill="rgba(0,0,0,0)" stroke="#4b9cd3" stroke-width="1"/>
+      <path id="Path_15729" data-name="Path 15729" d="M1.046,0A1.027,1.027,0,0,1,2.081,1.033,1.057,1.057,0,0,1,1.033,2.081,1.027,1.027,0,0,1,0,1.046,1.057,1.057,0,0,1,1.046,0Z" transform="translate(1.611 15.468)" fill="#4b9cd3" stroke="#4b9cd3" stroke-width="1"/>
+      <path id="Path_15727" data-name="Path 15727" d="M0,3.144l1.36-.008M-.014,6.283l1.36-.008M.024.005,1.383,0" transform="translate(2.02 1.482)" fill="rgba(0,0,0,0)" stroke="#4b9cd3" stroke-linecap="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

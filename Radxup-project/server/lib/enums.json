@@ -1,0 +1,27 @@
+{
+  "PARAMSTYPE": {
+    "mobile_phone": "Phone Number",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "personal_email": "Email",
+    "participant_id": "Participant Id",
+    "study_id": "Study Id",
+    "description": "Description",
+    "awardee_org": "Awardee Org Name",
+    "name": "Study Name",
+    "password": "Password",
+    "otp": "OTP"
+  },
+  "ROLES": {
+    "STUDY_ADMIN": 1,
+    "STUDY_COORDINATOR": 2,
+    "PARTICIPANT": 3,
+    "SUPER_ADMIN": 4
+  },
+  "VARIABLES": {
+    "first_name": "first_name",
+    "last_name": "last_name",
+    "age": "age",
+    "sex": "sex"
+  }
+}

@@ -1,0 +1,213 @@
+$disable_btn: #00539b;
+$success_btn: #14a9a2;
+
+@mixin no-outline {
+  outline: none;
+  box-shadow: none;
+}
+.cstCheckbox {
+  input {
+    font-size: 25px;
+  }
+}
+.cstCheckbox {
+  input:checked {
+    background-color: #48da3a;
+    border-color: #48da3a;
+  }
+}
+
+.cstCheckbox {
+  label {
+    color: #474d57;
+    font-weight: bold;
+  }
+}
+
+.typeLable {
+  width: 100%;
+  text-align: start;
+  font-size: 16px;
+  color: black;
+}
+
+.buttonWidth {
+  width: 140px;
+}
+.buttonBackground {
+  background-color: #474d57;
+  color: white;
+}
+
+.greyLable {
+  color: #d4d4d4;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.blackLable {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.titleLable {
+  color: #3fb9b3;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.questionItem {
+  padding-top: 14px;
+  border-top: 1px solid gray;
+}
+
+.questionTitle {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+}
+
+.answer {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+}
+.question-container {
+  box-shadow: 0px 3px 6px #afacc566;
+  border-radius: 4px;
+  margin-bottom: 38px;
+}
+
+.questionText {
+  color: #474d57;
+  text-align: start;
+  display: flex;
+  margin-bottom: 8px;
+}
+.largeQuestion {
+  font: normal bold 21px Roboto;
+}
+.medialQuestion {
+  font: normal bold 18px Roboto;
+}
+
+.smallQuestion {
+  font: normal bold 16px Roboto;
+}
+
+.sizeSmall {
+  font: normal bold 14px Roboto;
+  color: #afacc5;
+  &:hover {
+    cursor: pointer;
+    color: #474d57;
+  }
+}
+
+.sizeMediam {
+  font: normal bold 18px Roboto;
+  color: #afacc5;
+  &:hover {
+    cursor: pointer;
+    color: #474d57;
+  }
+}
+
+.sizeLarge {
+  font: normal bold 21px Roboto;
+  color: #afacc5;
+  &:hover {
+    cursor: pointer;
+    color: #474d57;
+  }
+}
+
+.active {
+  color: #474d57 !important;
+}
+
+.smallInput {
+  font-size: 16px;
+}
+
+.mediamInput {
+  font-size: 18px;
+}
+
+.largeInput {
+  font-size: 21px;
+}
+
+.saveButton {
+  background-color: #14a9a2 !important;
+  border: none;
+}
+
+.controls-section {
+  button {
+    min-width: 120px;
+    padding: 9px 0;
+    border-radius: 4px;
+  }
+  .success-btn {
+    background: $success_btn;
+    border: none;
+    &:focus {
+      @include no-outline();
+    }
+    &:hover {
+      background: $success_btn;
+    }
+  }
+  .disabled-btn {
+    opacity: 0.5;
+    background: $disable_btn;
+    border: none;
+    &:hover {
+      cursor: not-allowed;
+    }
+  }
+}
+.dropdown-toggle ~ .toggleButton {
+  background-color: transparent !important;
+}
+.dropdownMenu {
+  .toggleButton:focus {
+    box-shadow: none !important;
+  }
+  .toggleButton {
+    background-color: transparent !important;
+  }
+  .toggleButton::after {
+    display: none !important;
+  }
+  .menuItems {
+    font-size: 14px;
+    z-index: 989;
+  }
+  a:active {
+    background: transparent;
+  }
+  span {
+    color: black;
+  }
+}
+
+.previewBody {
+  word-break: break-all;
+}
+
+.icfHeading {
+  color: #14a9a2;
+}
+
+.icfQuestion {
+  color: #474c55;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icfOptionLabel label {
+  color: #474c55;
+}

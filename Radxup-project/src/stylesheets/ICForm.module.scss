@@ -1,0 +1,377 @@
+.dropdownMenu {
+  .toggleButton:focus {
+    box-shadow: none;
+  }
+  .toggleButton {
+    padding-left: 10px !important;
+  }
+
+  .menuItems {
+    color: #474d57;
+    font-size: 14px;
+    z-index: 989;
+  }
+}
+.disableScroll {
+  overflow: auto;
+}
+
+.eicfInput,
+.eicfInput:focus {
+  color: #00539b;
+  font-size: 24px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-weight: 700;
+  text-align: left;
+}
+
+.versionLabel {
+  color: #474c55;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.versionInput {
+  border-left: 0;
+  margin-left: -12px !important;
+}
+
+.footer {
+  font-size: 14px;
+  p {
+    span {
+      color: #14a9a2;
+    }
+    color: #474c55;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}
+.previewBody {
+  word-break: break-all;
+}
+.checkbox {
+  input:checked {
+    background-color: #9dc858;
+    border-color: #9dc858;
+  }
+  label {
+    color: #474c55;
+  }
+}
+.popoverText {
+  color: #14a9a2;
+}
+.questionText {
+  color: #474c55;
+  font-size: 18px;
+  font-weight: bold;
+}
+.optionLabel {
+  label {
+    color: #474c55;
+  }
+}
+
+.sectionWrapper {
+  background: #f3f4f7;
+  border: 1px solid #f3f4f7;
+  border-radius: 4px;
+  opacity: 1;
+  margin: 15px 0;
+  padding: 15px;
+}
+.sectionHeader {
+  padding: 0 12px;
+}
+.defaultBoldText {
+  font-size: 14px;
+  font-weight: bold;
+}
+.sectionToggle {
+  display: flex;
+  justify-content: end;
+  width: 80px;
+  align-items: center;
+}
+.formDependencyDropdown {
+  margin-right: 10px;
+  // @extend .defaultText;
+  height: 38px;
+  width: 200px;
+}
+.formDependencyDropdownLabel {
+  @extend .formDependencyDropdown;
+  @extend .defaultBoldText;
+}
+.formDependencyOperator {
+  margin-right: 10px;
+  width: 100px;
+}
+.formDependencyOperatorLabel {
+  @extend .formDependencyOperator;
+  @extend .defaultBoldText;
+}
+.formDependencyLabel {
+  @extend .defaultBoldText;
+  width: 22%;
+}
+.sectionPadding {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+/* forms add edit */
+.defaultBoldText {
+  font-size: 14px;
+  font-weight: bold;
+}
+.defaultText {
+  font-size: 14px;
+  color: #474c55;
+}
+.defaultDateTimeText {
+  @extend .defaultText;
+  input {
+    color: #474c55 !important;
+  }
+}
+.versionInput {
+  border-left: 0;
+  border-radius: 0 4px 4px 0 !important;
+  margin-left: -14px !important;
+}
+
+.pendingDetails {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  background: #dec400;
+  height: 45px;
+  padding: 13px 40px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.descriptionTextarea {
+  height: 90px;
+  resize: none;
+}
+
+.sectionWrapper {
+  background: #f3f4f7;
+  border: 1px solid #f3f4f7;
+  border-radius: 4px;
+  opacity: 1;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.innerSectionWrapper {
+  background: #e5dde2;
+  border: 1px solid #d3dce3;
+  border-radius: 4px;
+  margin: 20px 0 17px;
+  padding: 0;
+}
+
+.questionWrapper {
+  background: #e2e8ed;
+  border: 1px solid #e2e8ed;
+  border-radius: 4px;
+  margin: 6px 0;
+  padding: 16px 8px;
+}
+
+.sectionHeader {
+  padding: 0 12px;
+}
+
+.sectionTitle {
+  @extend .defaultText;
+  background: #d7ced3;
+  border: 1px solid #d3dce3;
+  border-radius: 4px;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  max-width: 160px;
+}
+.choiceTitle {
+  @extend .defaultText;
+  background: #d7ced3;
+  border: 1px solid #d3dce3;
+  border-radius: 4px;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  min-width: 160px;
+  height: 36px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+.sectionTitleFull {
+  @extend .sectionTitle;
+  max-width: 100%;
+  justify-content: start;
+  min-height: 38px;
+  opacity: 0.9;
+}
+.sectionToggle {
+  display: flex;
+  justify-content: end;
+  width: 80px;
+  align-items: center;
+}
+
+.icfDropdown {
+  @extend .defaultBoldText;
+  height: 38px;
+}
+.icfDropdownNormal {
+  @extend .defaultText;
+  height: 38px;
+}
+.formDependencyDropdown {
+  margin-right: 10px;
+  @extend .defaultText;
+  height: 38px;
+  width: 200px;
+}
+.formDependencyDropdownLabel {
+  @extend .formDependencyDropdown;
+  @extend .defaultBoldText;
+}
+.formDependencyOperator {
+  margin-right: 10px;
+  width: 100px;
+}
+.formDependencyOperatorLabel {
+  @extend .formDependencyOperator;
+  @extend .defaultBoldText;
+}
+.formDependencyLabel {
+  @extend .defaultBoldText;
+  width: 22%;
+}
+.icfDetails {
+  @extend .defaultText;
+  padding: 20px;
+  max-height: 180px;
+  overflow: auto;
+}
+
+.addTextIcon {
+  color: #00539b;
+  font-size: 24px;
+  font-weight: 300;
+  vertical-align: middle;
+}
+.hrLine {
+  border: 1px solid #afacc5;
+}
+.cdeOptionsTable {
+  tr th {
+    @extend .defaultText;
+    font-weight: normal;
+    padding-right: 60px;
+  }
+  tr td {
+    @extend .defaultText;
+    font-weight: bold;
+    padding-right: 60px;
+  }
+}
+.choiceValueInput {
+  width: 135px;
+}
+.choiceValueLabel {
+  width: 300px;
+}
+.dateTimeIcon {
+  position: relative;
+}
+.dateTimeIconImage {
+  position: absolute;
+  right: 0;
+  right: 10px;
+  top: 10px;
+}
+
+.previewWrapper {
+  max-height: 500px;
+  min-height: 300px;
+  overflow: auto;
+  display: flex;
+}
+.input-group {
+  width: 200px;
+  margin-right: 30px;
+  @media screen and (max-width: 400px) {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.disclaimer {
+  padding-left: 11px;
+  padding-right: 11px;
+  border: 1px solid #d3dce3;
+  margin-right: 0px;
+}
+.page_paragraph {
+  label {
+    font-size: 18px;
+    color: #474c55;
+  }
+}
+.dateTimeIcon {
+  position: relative;
+}
+.dateTimeIconImage {
+  position: absolute;
+  right: 0;
+  right: 10px;
+  top: 10px;
+}
+.defaultText {
+  font-size: 14px;
+  color: #474c55;
+}
+.defaultDateTimeText {
+  @extend .defaultText;
+  input {
+    color: #474c55 !important;
+  }
+}
+.dateTimeIconChild {
+  position: relative;
+}
+.dateTimeIconImageChild {
+  position: absolute;
+  right: 10px;
+  top: 38px;
+}
+
+.input-group {
+  width: 200px;
+  margin-right: 30px;
+  @media screen and (max-width: 400px) {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.cstInvalidFeedback {
+    width: 100%;
+    margin-top: 0.25rem rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+
+.disclaimerHeading {
+  color: #14a9a2;
+}

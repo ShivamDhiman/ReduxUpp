@@ -1,0 +1,159 @@
+.dotBox {
+  border: 2px dashed #ced4da;
+  width: fit-content;
+  position: relative;
+}
+
+.heading {
+  color: #14a9a2;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.heading2 {
+  @extend .heading;
+  color: #474c55;
+}
+
+.details {
+  font-size: 18px;
+  color: #474c55;
+}
+
+.unOrderedList {
+  list-style: none;
+}
+
+.unOrderedList li {
+  @extend .details;
+  font-size: 16px;
+  margin-left: -30px;
+}
+
+.unOrderedList li:before {
+  content: '\2022';
+  color: #3cc4c2;
+  width: 1;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+.signIcon {
+  height: 172px;
+}
+
+.button {
+  background: #0076be;
+  width: 143px;
+}
+
+.sigPad {
+  width: 100%;
+  height: 150px;
+}
+
+canvas.canvas {
+  border: 1px black solid;
+  display: none;
+}
+
+.outlineNone:focus {
+  box-shadow: none;
+  outline: none !important;
+}
+.consent {
+  min-height: 100px;
+}
+
+.modalWidth {
+  width: 400px !important;
+}
+
+.whoIsFilling {
+  label {
+    font-size: 18px;
+    line-height: 1.42857;
+    color: #535252;
+    font-weight: 400;
+  }
+}
+.para {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.questionText {
+  color: #474c55;
+  font-size: 18px;
+  font-weight: bold;
+}
+.optionLabel {
+  label {
+    color: #474c55;
+  }
+}
+.question-container {
+  box-shadow: 0px 3px 6px #afacc566;
+  border-radius: 4px;
+  margin-bottom: 38px;
+  // padding-bottom: 120px;
+}
+.question-section {
+  margin-top: 15px;
+}
+.question-section-preview {
+  display: block;
+}
+.smallInput {
+  font-size: 16px;
+}
+
+.mediamInput {
+  font-size: 18px;
+}
+
+.largeInput {
+  font-size: 21px;
+}
+
+.largeQuestion {
+  font: normal bold 21px Roboto;
+}
+.medialQuestion {
+  font: normal bold 18px Roboto;
+}
+
+.smallQuestion {
+  font: normal bold 16px Roboto;
+}
+
+.sizeSmall {
+  font: normal bold 14px Roboto;
+  color: #afacc5;
+  &:hover {
+    cursor: pointer;
+    color: #474d57;
+  }
+}
+
+.sizeMediam {
+  font: normal bold 18px Roboto;
+  color: #afacc5;
+  &:hover {
+    cursor: pointer;
+    color: #474d57;
+  }
+}
+
+.sizeLarge {
+  font: normal bold 21px Roboto;
+  color: #afacc5;
+  &:hover {
+    cursor: pointer;
+    color: #474d57;
+  }
+}
+.disclaimerHeading {
+  color: #14a9a2;
+}

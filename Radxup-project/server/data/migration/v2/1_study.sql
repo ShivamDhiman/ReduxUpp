@@ -1,0 +1,5 @@
+delete from public."Study";
+ALTER SEQUENCE public."Study_id_seq" RESTART 2;
+INSERT INTO public."Study" (ID,STUDY_ID,AWARDEE_ORG,"name",DESCRIPTION,REGISTRATION_DESCRIPTION,FEEDBACK_DESCRIPTION,STATUS,CREATED_BY,CREATED_AT,UPDATED_BY,UPDATED_AT) VALUES
+	 (1,'STD001','Duke','Colectiv','Welcome to the COVID-19 Testing in Gender Diverse Adults
+This study will examine the history and experiences of gender-diverse adults related to COVID-19 testing, testing and vaccine preferences, and social, economic, and mental health impacts of the COVID-19 pandemic. Participation in this study will include the completion of an online consent form, online survey(s), and self-reporting the results of your most recent COVID-19 test. Your information will be kept confidential.',NULL,NULL,'Onboarding',1,'2022-01-09 23:51:09.234+05:30',1,'2022-01-22 20:25:07.807+05:30');

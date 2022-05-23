@@ -1,0 +1,16 @@
+# version: "3.4"
+# services:
+#   app:
+#     build:
+#       context: .
+#       target: build
+#       cache_from:
+#         - ${IMAGE_BUILD:-radxup-cde-ui_app:latest}
+#     image: ${IMAGE_BUILD:-radxup-cde-ui_app:latest}
+#     command: ["/bin/sh", "-c", "yarn && yarn serve"]
+#     stdin_open: true
+#     ports:
+#       - 3000:3000
+#     env_file: .env
+#     volumes:
+#       - .:/app/

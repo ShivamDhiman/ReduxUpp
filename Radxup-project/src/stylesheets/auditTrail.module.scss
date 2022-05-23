@@ -1,0 +1,16 @@
+.dateInput {
+  width: 80%;
+  position: relative;
+  input {
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.clear-btn {
+  height: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 0px;
+}

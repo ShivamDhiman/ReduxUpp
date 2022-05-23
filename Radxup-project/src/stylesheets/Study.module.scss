@@ -1,0 +1,286 @@
+.stepperDeck {
+  margin: -3px;
+}
+.sqaueDesign {
+  width: 40px;
+  height: 40px;
+  background-color: #3faaa2;
+  border: 1px solid #01539b;
+  transform: rotate(45deg);
+  transition: all 0.8s ease-out;
+}
+.line {
+  height: 5px;
+  transition: all 0.5s ease-out;
+  display: block;
+  background: linear-gradient(to right, #01539b 50%, #dee1e6 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.8s ease-out;
+}
+.lineInActive {
+  background-position: left;
+}
+
+.CardNumber {
+  left: 15px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.CardNumberInActive {
+  color: #dee1e6;
+}
+.sectionHeading {
+  top: 52px;
+  left: -28px;
+  font-size: 14px;
+  color: #01539b;
+  transition: all 0.8s ease-out;
+}
+.sectionHeadingInActive {
+  color: #a9a9cb;
+}
+
+.sqaueDesignInActive {
+  background-color: #dee1e6;
+  border: 1px solid #dee1e6;
+}
+
+.stepper {
+  margin: 15px 30px 80px;
+}
+.defaultText {
+  font-size: 14px;
+  color: #474c55;
+}
+.sectionToggle {
+  display: flex;
+  justify-content: end;
+  width: 80px;
+  align-items: center;
+}
+.sectionHeader {
+  padding: 0 12px;
+}
+
+.sectionTitle {
+  @extend .defaultText;
+  display: flex;
+  color: #14a9a2;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  width: 40%;
+  border: none;
+}
+
+.cdeCard {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
+.CdeHeadSection {
+  display: flex;
+  justify-content: space-between;
+  font: normal normal bold 14px Roboto;
+  letter-spacing: 0px;
+  padding: 10px;
+}
+.CdeHeadTitle {
+  color: #474c55;
+  opacity: 1;
+  text-align: left;
+}
+.CdeHeadCount {
+  color: #00539b;
+  text-align: right;
+  opacity: 1;
+  font-weight: normal;
+}
+.CdeHeadSubCount {
+  font-size: 20px;
+  font-weight: bold;
+}
+.documentCard {
+  box-shadow: 0px 3px 6px #afacc566;
+  border: 1px solid #e5dde2;
+  border-left: 5px solid #4b9cd3;
+  border-radius: 4px;
+  opacity: 1;
+}
+.documentTitle {
+  border-right: 1px solid #dee1e6;
+  padding-right: 15px;
+  padding-left: 10px;
+  text-align: left;
+  font: normal normal bold 18px Roboto;
+  letter-spacing: 0px;
+  color: #474c55;
+}
+.documentDocsTitle {
+  min-width: 10%;
+}
+.documentuploadIcon {
+  padding-right: 60px;
+}
+.documentNoDocs {
+  text-align: left;
+  font: italic normal normal 14px Roboto;
+  letter-spacing: 0px;
+  color: #a9a9cb;
+  opacity: 0.5;
+}
+.documentDocs {
+  text-align: left;
+  font: normal normal normal 14px Roboto;
+  letter-spacing: 0px;
+  color: #474c55;
+}
+
+.studyViewMainHeader {
+  text-align: left;
+  font: normal normal bold 24px Roboto;
+  letter-spacing: 0px;
+  color: #00539b;
+  opacity: 1;
+}
+.studyViewHeader {
+  text-align: left;
+  font: normal normal bold 14px Roboto;
+  letter-spacing: 0px;
+  color: #474c55;
+  opacity: 0.5;
+}
+.studyViewLabel {
+  margin-top: 10px;
+  min-width: 150px;
+  text-align: left;
+  font: normal normal bold 18px Roboto;
+  letter-spacing: 0px;
+  color: #474c55;
+  opacity: 1;
+}
+
+.studyViewDescription {
+  margin-top: 10px;
+  text-align: left;
+  font: normal normal normal 18px Roboto;
+  letter-spacing: 0px;
+  color: #474c55;
+  opacity: 1;
+}
+.studyViewCardIcon {
+  margin-left: 80px;
+}
+
+.studyViewDocsCard {
+  border-left: 1px solid #dee1e6;
+  padding-left: 20px;
+}
+.checkbox {
+  input:checked {
+    background-color: #9dc858;
+    border-color: #9dc858;
+  }
+}
+.contentBorder {
+  border-right: 2px solid #ebedf0;
+  border-spacing: 15px;
+}
+.rightCheck {
+  // input[type='checkbox'] {
+  //   border-radius: 50%;
+  // }
+  input:checked {
+    background-color: #9dc858;
+    border-color: #9dc858;
+  }
+}
+.mainHeading {
+  font-size: 24px;
+  color: #00539b;
+  text-align: left;
+  font-weight: bold;
+  margin-left: -14px;
+}
+
+.labelWidth {
+  min-width: 80px;
+}
+.radioLabel {
+  label {
+    font-size: 18px;
+    line-height: 1.42857;
+    color: #535252;
+    font-weight: 400;
+  }
+}
+.previewMainHeader {
+  text-align: left;
+  font: normal normal bold 24px Roboto;
+  color: #00539b;
+  opacity: 1;
+}
+.textlabal {
+  color: #474c55;
+  opacity: 50%;
+  font-size: 14px;
+  font-weight: bold;
+}
+.contentText {
+  font-size: 18px;
+  color: #474c55;
+}
+.showdot {
+  max-width: 700px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: normal normal bold 24px Roboto;
+  color: #00539b;
+}
+
+.textContent {
+  color: #474c55;
+  font-size: 18px;
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.previewBody {
+  word-break: break-all;
+}
+.previewLogo {
+  height: 120px;
+  background-color: #e5e5ea;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.previewTitle {
+  height: 200px;
+  background-color: #14a9a2;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.arrowDown {
+  width: 0px;
+  height: 0px;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 60px solid #e5e5ea;
+  position: absolute;
+  bottom: -90px;
+  left: 41%;
+  transform: translate(0, -50%);
+  z-index: 5;
+}
